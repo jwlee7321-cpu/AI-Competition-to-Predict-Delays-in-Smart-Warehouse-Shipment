@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.log
+*.err
+*.pid
+catboost_info/
+*.npz
+*.npy
+/data/*.csv
+/data/*.zip
+/data/*.xlsx
+/outputs/
+sub_*.csv
+!artifacts/sub_*.csv
