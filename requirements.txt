@@ -5,3 +5,4 @@ scipy==1.16.3
 lightgbm==4.6.0
 xgboost==3.1.1
 catboost==1.2.8
+python-pptx==1.0.2
