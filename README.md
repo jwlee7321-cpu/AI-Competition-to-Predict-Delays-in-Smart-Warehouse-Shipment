@@ -54,6 +54,12 @@ the final A120 postprocess.  Run:
 python reproduce_a120_from_artifacts.py
 ```
 
+The same check is also available as a notebook:
+
+```text
+final_A120_reproduction.ipynb
+```
+
 Output:
 
 ```text
