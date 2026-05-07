@@ -103,6 +103,7 @@ For exact final-file verification, use the included artifacts.
 Tested environment:
 
 ```text
+OS: Microsoft Windows 11 Home 10.0.26200
 Python 3.12.5
 numpy 2.4.3
 pandas 2.3.3
@@ -112,6 +113,15 @@ lightgbm 4.6.0
 xgboost 3.1.1
 catboost 1.2.8
 ```
+
+## Validation Checklist
+
+- Data input and output paths are written as paths relative to the repository
+  root.
+- Source files and comments are encoded as UTF-8.
+- Python source files were checked with `py_compile`.
+- The final A120 postprocess can be reproduced from included artifacts with
+  `python reproduce_a120_from_artifacts.py`.
 
 ## Notes
 
